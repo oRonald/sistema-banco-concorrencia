@@ -20,6 +20,10 @@ Quando uma thread entra em uma operação crítica (como saque ou transferência
 
 <img width="551" height="247" alt="image" src="https://github.com/user-attachments/assets/4ff3b8e2-03ea-4205-a2db-56f641f08645" />
 
+- A classe Account implementa o ReentrantLock
+- Na operação withdraw ele é acionado via: 'acc.getLock().lock();'
+- Ao final da operação no bloco finally o desbloqueio é realizado via: 'acc.getLock().unlock();'
+
 ## 🛠️ Tecnologias Utilizadas
 - Java 17
 - ReentrantLock (Concorrência)

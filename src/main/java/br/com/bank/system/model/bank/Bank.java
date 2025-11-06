@@ -69,6 +69,9 @@ public class Bank {
         Account acc = getAccountFromMap(accountId);
         acc.getLock().lock();
         try{
+            if(amount.compareTo(BigDecimal.ZERO) <= 0){
+                throw new IllegalArgumentException("Deposit cannot be negative");
+            }
             acc.depositUnsafe(amount);
         } finally {
             acc.getLock().unlock();
@@ -79,6 +82,9 @@ public class Bank {
         Account acc = getAccountFromMap(accountId);
         acc.getLock().lock();
         try{
+            if(amount.compareTo(BigDecimal.ZERO) <= 0){
+                throw new IllegalArgumentException("Withdraw amount must be positive");
+            }
             if(acc.getBalance().compareTo(amount) < 0)
                 throw new IllegalStateException("Insufficient balance");
             acc.withdrawUnsafe(amount);

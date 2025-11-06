@@ -1,4 +1,4 @@
-package br.com.projeto.clima.model.customer;
+package br.com.bank.system.model.customer;
 
 import java.io.Serializable;
 import java.util.Objects;

@@ -1,6 +1,6 @@
-package br.com.projeto.clima.model.transaction;
+package br.com.bank.system.model.transaction;
 
-import br.com.projeto.clima.model.transaction.enums.TransactionType;
+import br.com.bank.system.model.transaction.enums.TransactionType;
 
 import java.io.Serializable;
 import java.math.BigDecimal;

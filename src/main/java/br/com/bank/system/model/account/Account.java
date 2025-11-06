@@ -1,7 +1,7 @@
-package br.com.projeto.clima.model.account;
+package br.com.bank.system.model.account;
 
-import br.com.projeto.clima.model.transaction.Transaction;
-import br.com.projeto.clima.model.transaction.enums.TransactionType;
+import br.com.bank.system.model.transaction.Transaction;
+import br.com.bank.system.model.transaction.enums.TransactionType;
 
 import java.io.Serializable;
 import java.math.BigDecimal;

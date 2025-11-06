@@ -1,4 +1,4 @@
-package br.com.projeto.clima.model.transaction.enums;
+package br.com.bank.system.model.transaction.enums;
 
 public enum TransactionType {
 

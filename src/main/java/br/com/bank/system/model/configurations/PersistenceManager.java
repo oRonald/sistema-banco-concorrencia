@@ -1,7 +1,7 @@
-package br.com.projeto.clima.model.configurations;
+package br.com.bank.system.model.configurations;
 
-import br.com.projeto.clima.model.account.Account;
-import br.com.projeto.clima.model.customer.Customer;
+import br.com.bank.system.model.account.Account;
+import br.com.bank.system.model.customer.Customer;
 
 import java.io.*;
 import java.math.BigDecimal;

@@ -1,10 +1,9 @@
-package br.com.projeto.clima.model.bank;
+package br.com.bank.system.model.bank;
 
-import br.com.projeto.clima.model.account.Account;
-import br.com.projeto.clima.model.configurations.PersistenceManager;
-import br.com.projeto.clima.model.customer.Customer;
+import br.com.bank.system.model.account.Account;
+import br.com.bank.system.model.configurations.PersistenceManager;
+import br.com.bank.system.model.customer.Customer;
 
-import java.io.File;
 import java.math.BigDecimal;
 import java.util.Collection;
 import java.util.Map;

@@ -1,10 +1,9 @@
-package br.com.projeto.clima;
+package br.com.bank.system;
 
-import br.com.projeto.clima.model.account.Account;
-import br.com.projeto.clima.model.bank.Bank;
-import br.com.projeto.clima.model.customer.Customer;
+import br.com.bank.system.model.account.Account;
+import br.com.bank.system.model.bank.Bank;
+import br.com.bank.system.model.customer.Customer;
 
-import java.io.File;
 import java.math.BigDecimal;
 import java.util.Scanner;
 
